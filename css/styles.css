@@ -9,7 +9,8 @@ h1 {
     line-height: 400%;
     text-align: center;
     color: black;
-    display: flex;
+    display: grid;
+    place-items: center;
 }
 
 h2 {
@@ -27,7 +28,7 @@ h3 {
 }
 
 nav {
-    display: flex;
+    display: grid;
     font-family: "Century Gothic", serif;
     color: cyan;
     text-align: center;
@@ -37,8 +38,6 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     margin-top: 0px;
 }
 
@@ -116,6 +115,7 @@ h1 a {
 
     nav ul {
         margin: 0 auto;
+        display: flex;
         flex-direction: row;
         justify-content: center;
     }
